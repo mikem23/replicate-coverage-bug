@@ -1,6 +1,8 @@
 Coverage threading bug
 ======================
 
+Filed here: [bitbucket.org](https://bitbucket.org/ned/coveragepy/issues/583/fatal-python-error-with-threaded-unit-test)
+
 While working on unit tests for py3 support in [Koji](https://pagure.io/koji),
 I encountered a strange failure running nosetests-3.
 
