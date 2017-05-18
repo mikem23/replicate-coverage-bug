@@ -29,9 +29,9 @@ Note: sometimes you might need to run it more than once to hit the bug.
 
 Things that avoid the issue:
 
-    * removing `/usr/lib/*` from omit in `.coveragerc`
-    * adding `timid=true` in `.coveragerc`
-    * running with python2 instead
+* removing `/usr/lib/*` from omit in `.coveragerc`
+* adding `timid=true` in `.coveragerc`
+* running with python2 instead
 
 The error is happening at exit. If you trace the run with pdb, there are no
 errors until you exit python itself. See: `run_pdb.sh`
